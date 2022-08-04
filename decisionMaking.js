@@ -4,8 +4,8 @@
 
 
 var doorChoice = 1;
-var bearClothing = "";
-var bearChoice = 1;
+var bearClothing = "jacket";
+var bearChoice = 2;
 
 console.log("You enter a dark room with two doors. Do you go through #1 or #2?");
 
@@ -35,9 +35,18 @@ if (bearChoice === 1) {
 
 // Questions
 // 1. In English, using technical vocabulary, describe what is happening between lines 12 and 16.
+//Between lines 12 and 16, an if statement was written to evaluate if the variable stored for the doorChoice varialble
+//is exactly equal to 1. If so the variable bearClothing is assigned the string "hat". Otherwise it's assigned "scarf".
 // 2. What variable has a new value assigned to it after the first if statement executes?
+bearClothing
+
 // 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
+scarf
 // 4. In English, using technical vocabulary, describe what is happening between lines lines 25 and 33.
+//The bearChoice is being evaluated 3 different times, each with its own code to run if evaluated to true. If none are true, the statement about befriending the bear is returned.
 // 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
+//"You run as fast as you can into the next room. It's full of snakes!" is returned.
 // 6. If you changed the variable doorChoice to equal 1, and the variable bearChoice to equal 2, what will be the final outcome be?
+//"You tell the bear the " + bearClothing + " is too small and it starts to cry!" is returned.
 // 7. What is your favorite ending?
+//Submitting assignments!
